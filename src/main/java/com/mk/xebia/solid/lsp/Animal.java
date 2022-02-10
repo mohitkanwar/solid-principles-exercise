@@ -5,7 +5,6 @@ public abstract class Animal {
 
 
     private Organ lungs = new Organ("Lungs");
-    private Organ tail = new Organ("Tail");
     private Organ vocalChords = new Organ("Vocal Chords");
     private Organ eyes = new Organ("Eyes");
     private Organ skin = new Organ("Skin");
@@ -24,9 +23,6 @@ public abstract class Animal {
         return lungs;
     }
 
-    public Organ getTail() {
-        return tail;
-    }
 
     public Organ getVocalChords() {
         return vocalChords;

@@ -12,12 +12,17 @@ public interface Food {
     boolean containsBeaf();
     boolean containsMilk();
     boolean isNonVeg();
+
     float getCalories();
     float getCarbohydrates();
     float getFats();
     float getProteins();
+
     List<String> getVitamins();
     List<String> getMinarals();
+
+
+
     boolean isHalal();
     Date cropYear();
     String bhutcharName();

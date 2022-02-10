@@ -1,6 +1,6 @@
 package com.mk.xebia.solid.dip;
 
-public class Battery {
+public class Battery implements PowerProvider{
     private float remainingCharge = 100;
 
     public float getRemainingCharge() {
